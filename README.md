@@ -17,13 +17,22 @@
 
 ![hasil A_1](https://user-images.githubusercontent.com/118170084/209354866-0a3395a1-7a4e-4e47-8ea3-77757b7bd388.png)
 
+*- Analisa :* Pada percobaan pertama ini berguna untuk memeriksa apakah jaringan WiFi yang akan disambungkan berada dalam jangkauan ESP32 kita atau tidak. Untuk mengetahui jumlah jaringan yang ditemukan menggunakan fungsi `WiFi.scanNetworks()`
+
+
 **B. Menghubungkan ESP32 Dengan Jaringan WiFi**
 
 ![hasil B_1](https://user-images.githubusercontent.com/118170084/209354913-8ea4848f-6ec6-4ba2-8656-a9d3f27706ea.png)
 
+*- Analisa :* Pada percobaan kedua untuk menghubungkan ESP32 ke jaringan WiFi harus mengetahui SSID dan password-nya. Selain itu, jaringan tersebut harus berada dalam jangkauan WiFi ESP32. Untuk menyambungkan ESP32 ke jaringan WiFi menggunakan fungsi `initWiFi()`
+
+
 **C. Menghubungkan Kembali (Re-connect) ESP32 Dengan Jaringan WiFi**
 
 ![hasil C_1](https://user-images.githubusercontent.com/118170084/209355944-7872771d-05e4-4619-a6c9-cc606d33b6cb.png)
+
+*- Analisa :* Pada percobaan ketiga untuk menghubungkan kembali (reconnect) WiFi setelah koneksi terputus, dapat menggunakan fungsi `WiFi.reconnect()` untuk mencoba menyambung kembali ke titik akses yang terhubung sebelumnya.
+
 
 **D. Mengganti Hostname ESP32**
 

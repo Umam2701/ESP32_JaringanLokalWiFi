@@ -1,5 +1,15 @@
 # TOPOLOGI JARINGAN LOKAL & WIFI
 
+Wireless Fidelity atau yang lebih awam kita sebut wifi adalah suatu teknologi
+yang menggunakan gelombang radio dalam rentang 2,4GHz sampai dengan 5GHz untuk menghubungkan perangkat seperti PC/laptop, smartphone, dan perangkat
+microcontroller seperti ESP32 dan ESP8266 ke jaringan lokal wireless untuk bisa mengakses internet. Untuk dapat melakukan akses internet tersebut,maka
+perangkat elektronik diatas perlu berada dalam satu titik akses atau hotspot
+jaringan nirkabel sehingga terhubung dengan wifi. 
+
+Berbagai data yang kita minta atau kirimkan melalui wifi didistribusikan melalui gelombang radio di udara. Supaya data tersebut bisa terbaca maka harus ada yang namanya wireless adaptor yang menghubungkan ke wifi. Gelombang
+radio yang berwujud sinyal ini lalu dikirim menuju router yang fungsinya untuk memecahkan kode. Setelah terbaca maka data dikirim ke jaringan internet yang memanfaatkan koneksi ethernet. Karena jaringan wifi ini bekerja dua arah maka tiap data yang diterima dalam waktu yang sama menjadi kode pada tiap paket data lalu dikirim kembali dalam bentuk sinyal radio yang diterima adaptor komputer nirkabel.
+
+
 **ALAT DAN BAHAN**
 1) ESP32
 2) Breadboard
